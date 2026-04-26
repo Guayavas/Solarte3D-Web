@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1",
+    "title": "Figuras Coleccionables",
+    "description": "Impresión de alta precisión para figuras detalladas y bustos coleccionables.",
+    "category": "Figuras",
+    "image": "https://images.unsplash.com/photo-1612815154858-60aa4c59eaa6?auto=format&fit=crop&q=80&w=800",
+    "tags": ["Resina", "Detalle", "Arte"]
+  },
+  {
+    "id": "2",
+    "title": "Repuestos Industriales",
+    "description": "Piezas funcionales y resistentes para maquinaria y prototipos técnicos.",
+    "category": "Repuestos",
+    "image": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=800",
+    "tags": ["Funcional", "PETG", "Ingeniería"]
+  },
+  {
+    "id": "3",
+    "title": "Decoración de Interiores",
+    "description": "Lámparas, jarrones y elementos decorativos únicos impresos en 3D.",
+    "category": "Decoración",
+    "image": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&q=80&w=800",
+    "tags": ["Estética", "Hogar", "PLA"]
+  },
+  {
+    "id": "4",
+    "title": "Juguetes y Articulados",
+    "description": "Diversión para todas las edades con juguetes personalizados y articulados.",
+    "category": "Juguetes",
+    "image": "https://images.unsplash.com/photo-1566131444841-aa6075245843?auto=format&fit=crop&q=80&w=800",
+    "tags": ["Niños", "Color", "Diversión"]
+  },
+  {
+    "id": "5",
+    "title": "Proyectos Personalizados",
+    "description": "Traemos tus ideas a la realidad. Diseño y modelado a medida.",
+    "category": "Personalizado",
+    "image": "https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&q=80&w=800",
+    "tags": ["Diseño", "Especial", "Soluciones"]
+  }
+]

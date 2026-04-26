@@ -1,36 +1,85 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Solarte3D - Web de Impresión 3D
 
-## Getting Started
+Este proyecto es una landing page moderna y profesional para **Solarte3D**, un emprendimiento de impresión 3D. Construida con **Next.js**, **Tailwind CSS** y **Framer Motion**, está optimizada para rendimiento y SEO, lista para ser desplegada en Vercel.
 
-First, run the development server:
+---
 
+## 💻 Guía de Instalación Local
+
+Sigue estos pasos para ejecutar el proyecto en tu propia computadora:
+
+### 1. Prerrequisitos
+Asegúrate de tener instalado:
+- **Node.js** (Versión 18 o superior recomendada)
+- **npm** (Viene con Node.js)
+
+### 2. Clonar el repositorio
+Si tienes Git instalado:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone <url-del-repositorio>
+cd Solarte3D-Web
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 3. Instalar dependencias
+Desde la carpeta raíz del proyecto, ejecuta:
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 4. Ejecutar el servidor de desarrollo
+Inicia el proyecto localmente:
+```bash
+npm run dev
+```
+Ahora abre [http://localhost:3000](http://localhost:3000) en tu navegador para ver la página.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🌐 Guía de Despliegue (Poner en línea)
 
-To learn more about Next.js, take a look at the following resources:
+Para que tu web esté accesible para todo el mundo 24/7, la opción más recomendada y sencilla es **Vercel**.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Opción A: Despliegue con Vercel (Recomendado)
+1. Crea una cuenta gratuita en [Vercel.com](https://vercel.com).
+2. Conecta tu cuenta de GitHub/GitLab/Bitbucket.
+3. Selecciona el repositorio de este proyecto.
+4. Vercel detectará automáticamente que es un proyecto de **Next.js**.
+5. Haz clic en **"Deploy"**.
+6. ¡Listo! Vercel te dará una URL (ej. `solarte3d.vercel.app`) y actualizará la web automáticamente cada vez que subas cambios a la rama principal.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Opción B: Construcción Manual para otros servidores
+Si prefieres usar otro servidor:
+1. Genera los archivos de producción:
+   ```bash
+   npm run build
+   ```
+2. Los archivos optimizados se guardarán en la carpeta `.next`.
+3. Sigue las instrucciones de tu proveedor de hosting para servir aplicaciones de Node.js o exportar como sitio estático si decides usar `output: 'export'` en `next.config.ts`.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🛠️ Cómo Actualizar el Portfolio
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+No necesitas tocar el código de los componentes para añadir nuevos proyectos.
+1. Ve al archivo `src/data/projects.json`.
+2. Añade un nuevo objeto al array siguiendo este formato:
+   ```json
+   {
+     "id": "6",
+     "title": "Nombre de tu Proyecto",
+     "description": "Breve descripción de lo que hiciste.",
+     "category": "Figuras / Repuestos / etc",
+     "image": "URL_de_la_imagen",
+     "tags": ["Tag1", "Tag2"]
+   }
+   ```
+3. Guarda el archivo y los cambios se verán reflejados automáticamente en la web.
+
+---
+
+## ✨ Tecnologías utilizadas
+- **Framework:** Next.js 15 (App Router)
+- **Estilos:** Tailwind CSS v4
+- **Animaciones:** Framer Motion
+- **Iconos:** Lucide React
+- **Temas:** Next Themes (Modo Oscuro/Claro)
